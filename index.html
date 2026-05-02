@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Ecommerce Pro</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>TechStore</h1>
+    </header>
+
+    <section class="controls">
+        <input type="text" id="search" placeholder="O que você procura?">
+        
+        <select id="category">
+            <option value="Todas">Todas as Categorias</option>
+        </select>
+
+        <button id="btnRender">Resetar Catálogo</button>
+    </section>
+
+    <main class="container">
+        <section id="product-list"></section>
+
+        <aside id="product-details">
+            <h3>Detalhes do Produto</h3>
+            <div id="details-content">
+                <p>Clique em "Ver detalhes" para saber mais sobre um produto.</p>
+            </div>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
